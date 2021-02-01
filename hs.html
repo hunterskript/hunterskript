@@ -1,16 +1,5 @@
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Reproductores html 5</title>
-<meta name="description" content="Creamos reproductores html5 para paginas web y xats  en su mayoria para radios en general..."/>
-<meta name="keywords" content="radio, Radio ,RADIO, XAT ,xatgroup , radioxat, html5, reproductores, players, "/>
-<meta name="copyright" content="hunter skript"/>
-<meta name="robots" content="index,follow"/>
-<head>
 <script src="java/jquery-3.2.1.min.js"></script>
 <script src="java/lunaradio-sincors.js"></script>
-</head>
-
-<body>
 
 <div style="position:absolute;overflow:hidden;width:100%;height:100%;top:0;left:0;z-index:2">
  <video autoplay="true" muted="true" loop="true">
@@ -19,7 +8,8 @@
 </div>
 
 <div id="lunaradio" style="width:100%;height:100%;position:absolute;left:0px;top:0px;z-index:300;overflow:hidden;display:block">Cargando ...</div>
-	
+
+<!-- <div id="lunaradio" style="width:100%; height:600px;background: #000000 url(https://i.imgur.com/CTQdbqh.jpg) bottom / cover no-repeat;">Cargando ...</div> -->	
 
 <script>
   $("#lunaradio").lunaradio({
@@ -30,10 +20,10 @@
   fontname: "Anton",
   googlefont: "Anton&display=swap",
   fontratio: "0.4",
-  radioname: "Hunter Skript Players", 
+  radioname: "Hunter Radio", 
   scroll: "true",
-  coverimage: "imagenes/logo.pjg", 
-  onlycoverimage: "false",
+  coverimage: "imagenes/logo.jpg", 
+  onlycoverimage: "false", 
   coverstyle: "animated",
   usevisualizer: "real",
   visualizertype: "7",
@@ -58,5 +48,3 @@
   debug: "false",
   });
 </script>
-	</body>
-</html>
