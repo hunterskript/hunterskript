@@ -1,8 +1,38 @@
+<div class="se-pre-con"></div>
+</head>
+<link rel="stylesheet" href="https://eu47-sonic.instainternet.com/cp/inc/fontaw/css/font-awesome.css">
+<script type="text/javascript" src="https://eu47-sonic.instainternet.com/cp/inc/js/jquery.min.js"></script>
+<link rel="stylesheet" href=':https://eu47-sonic.instainternet.com/cp/widgets/dj/dj_widget.css?r=8xdue6au'>
+</head>
+
+
 <link href="//empresarialhost.com/4GeneradorHTML5/css/icast.min.css" type="text/css" rel="stylesheet"> <script src="//code.jquery.com/jquery-3.0.0.min.js">
 </script> <div class="icast" id="stream1"> <script
 src="//empresarialhost.com/4GeneradorHTML5/js/icast.min.js"></script>
 
 <div class="icast" id="stream1">
- <script src="//empresarialhost.com/4GeneradorHTML5//1/js/icast.min.js"></script> <script> $("#stream1").icast({ URL: "https://eu47-sonic.instainternet.com:7001", version: "2", servertitle: "", autoplay: true, show_listeners: true, volume: 1, logo: "https://empresarialhost.com/4GeneradorHTML5/ecualizador.gif", })
+ <script> $("#stream1").icast({ URL: "https://eu47-sonic.instainternet.com:7001", version: "2", servertitle: "", autoplay: true, show_listeners: true, volume: 1, logo: "java/rsdla.png", })
 
 </script>
+	
+	
+<script>
+$(window).on('load', function(){ $(".se-pre-con").fadeOut("slow"); });
+var ts = new Date().getTime();
+$(document).ready(function(){
+$.post("art.php",{ NoCache: ts, user: 'sci04jc' } ,function(data){ $("#art").html(data); });
+intervalart = setInterval(function() {
+$.post("art.php",{ NoCache: ts, user: 'sci04jc' } ,function(data){ $("#art").html(data); });
+}, 10000);
+});
+
+
+</script>
+
+<div class="framedj" style="">
+
+
+
+<center>Auto Dj OnLine</center>
+
+</div>
